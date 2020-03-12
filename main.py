@@ -17,6 +17,7 @@ if __name__ == "__main__":
         # inp = '46743995'  # for test
         # inp = '1646659'  #blocked
         # inp = 'eshmargunov'
+        # inp = 'dusiasobol'
         if inp.lower() == 'k':
             print(VK.make_key_URL())
         elif inp.lower() == 'q':

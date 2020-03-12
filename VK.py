@@ -22,7 +22,8 @@ class VK:
 
     @staticmethod
     def get_token():
-        ACCESS_TOKEN = '73eaea320bdc0d3299faa475c196cfea1c4df9da4c6d291633f9fe8f83c08c4de2a3abf89fbc3ed8a44e1'
+        # ACCESS_TOKEN = '73eaea320bdc0d3299faa475c196cfea1c4df9da4c6d291633f9fe8f83c08c4de2a3abf89fbc3ed8a44e1' # given
+        ACCESS_TOKEN = '0ffb0c371911eaf302630c1f4976243572dd2fd31a20369cd1c45b3ee2d5c2f7e873bae5bc075b04d1e80'
         return ACCESS_TOKEN
 
 

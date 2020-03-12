@@ -92,7 +92,7 @@ class User(VK):
         all_fr_groups = set()
         fr_list = self.get_friends()
         for i in range(len(fr_list)):
-            if not (fr_list[i].is_closed() or fr_list[i].is_deleted):
+            if not (fr_list[i].is_closed() or fr_list[i].is_deleted()):
                 all_fr_groups |= set(fr_list[i].get_groups())
         unique_groups_id = set(self.get_groups()) - all_fr_groups
         return VK.get_groups_info(list(unique_groups_id))
